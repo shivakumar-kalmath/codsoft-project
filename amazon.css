@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    height: 90px;
+    width: 100%;
+    background-color: #0F1111;
+    display: flex;
+}
+#logo{
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+#loclog{
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 12px;
+}
+#deliver{
+    display: flex;
+}
+#bgm{
+    margin-top: 20px;
+}
+.searc-bar{
+    /* background-color: yellow; */
+    width: 700px;
+    /* background-color: white; */
+    display: flex;
+    /* column-gap: 10px; */
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    /* overflow: hidden; */
+}
+.searc-box{
+    width:84%;
+    height: 40px;
+    font-size: 15px;
+    text-indent: 20px;
+    border: 2px;
+    border-color: chocolate;
+    /* border-radius: 10px; */
+    /* border: none; */
+    /* outline: none; */
+}
+.searc-icon{
+    /* width: 20%; */
+    font-size: 22px;
+    padding: 4px;
+    
+    /* background-color: yellow; */
+}
+#delive{
+    margin-left: 28px;
+}
+.vid{
+    height: 400px;
+    width: 100%;
+    /* position: absolute; */
+}
+.main{
+    height: 1790px;
+    width: 100%;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.main h4{
+    color: crimson;
+}
+.div{
+    height: 400px;
+    width: 350px;
+    background-color: darkgray;
+    display: block;
+    align-content: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-family: sans-serif,Arial, Helvetica;
+    /* margin-left: 10px; */
+
+}
+.div:hover{
+    box-shadow: 5px 10px 15px #999999;
+}
+.div h2,.div img, .div h4{
+    margin-left: 20px;
+}
