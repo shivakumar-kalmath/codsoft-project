@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            height: 90px;
+            width: 100%;
+            background-color: #04AA6D;
+            display: flex;
+        }
+        #tname{
+            width: 30%;
+            font-size: 30px;
+            /* background-color: rgb(10, 128, 231); */
+            font-family: "Sevillana", cursive;
+            
+        }
+        h3{
+            margin-top: 20px;
+            margin-left: 30px;
+            color: aliceblue;
+        }
+        .home{
+            width: 70%;
+            /* background-color: aqua; */
+            font-family: "Kanit", sans-serif;
+            font-size: 25px;
+        }
+        #sk{
+            background-color: white;
+            border: 2px solid crimson;
+            font-size: 30px;
+            line-height: 40px;
+            font-family:"Sevillana", cursive ;
+            margin-top: 20px;
+            margin-left: 30px;
+            padding: 5px 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px black;
+        }
+        ul{
+            color: aliceblue;
+            display: flex;
+            list-style: none;
+            margin-left: 10px;
+            align-content: center;
+            justify-content: center; 
+        }
+        li{
+            margin-left:50px;
+            margin-top: 20px;
+            border: 2px #04AA6D;
+            
+        }
+        li:hover{
+            color:crimson;
+            border: 2px aliceblue;
+        }
+        .main{
+            width: 100%;
+            height: 550px;
+            /* background-color: rgb(247, 247, 3); */
+        }
+        .tesec{
+            height: 550px;
+            width: 50%;
+            float: left;
+            /* background-color: brown; */
+            /* padding-top: 10px; */
+        }
+        .tpic{
+            height: 550px;
+            width: 50%;
+            float: right;
+            
+            /* background-color: chocolate; */
+        }
+        .hii{
+            font-size:40px;
+            margin-top: 90px;
+            margin-left: 30px;
+            color: crimson;
+        }
+        .name{
+            font-size: 90px;
+            margin-left: 30px;
+            color: #04AA6D;
+            font-family: "Kanit", sans-serif;
+        }
+        #bgim{
+            height: 500px;
+            mix-blend-mode: multiply;
+            margin-left: 90px;
+            margin-top: 15px;
+            position: absolute;
+            z-index: 0;
+        }
+        #real{
+            height: 220px;
+            position: absolute;
+            margin-left: 220px;
+            margin-top: 170px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .custom-shape-divider-bottom-1717428453 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1717428453 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-bottom-1717428453 .shape-fill {
+    fill: #04AA6D;
+}
+     .about{
+        height: 600px;
+        width: 100%;
+        background-color: #04AA6D;
+     }
+     .me{
+        height: 100px;
+        width: 100%;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        /* align-content: center; */
+        align-items: center;
+        color: aliceblue;
+        font-family: sans-serif;
+     }
+     #info{
+        height: 400px;
+        /* background-color: crimson; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Kanit", sans-serif;
+     }
+     #hire{
+        height: 100px;
+        width: 100%;
+        /* background-color: cadetblue; */
+        /* display: flex; */
+        justify-content: center;
+        
+     }
+     #cv{
+        font-size: 20px;
+            line-height: 40px;
+            width: 200px;
+            margin-left: 35%;
+            margin-top: 25px;
+            border: none;
+            margin-right: 5px;
+            color: #04AA6D;
+     }
+     #hoe{
+        font-size: 20px;
+            line-height: 40px;
+            width: 200px;
+            border: none;
+            margin-left: 5px;
+            color: #04AA6D;
+     }
+     #cv:hover, #hoe:hover{
+        background-color: crimson;
+        color:white ;
+        font-family: arial;
+     }
+     .contact{
+        height: 400px;
+        width: 100%;
+        /* background-color: cadetblue; */
+     }
+     .call
+     {
+        height: 400px;
+        width: 50%;
+        /* background-color: burlywood; */
+        float: left;
+        
+       
+     }
+     .inbox{
+        height: 400px;
+        width: 50%;
+        /* background-color: chartreuse; */
+        float: right;
+     }
+     #naam{
+        width: 200px;
+        line-height: 30px;
+        text-indent: 5px;
+        border-bottom: 2px solid crimson;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin-top: 85px;
+        margin-left: 20px;
+        /* background-color: #04AA6D; */
+     }
+     #sub{
+        width: 430px;
+        line-height: 30px;
+        text-indent: 5px;
+        border-bottom: 2px solid crimson;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin-left: 20px;
+        margin-top: 30px;
+     }
+     #msg{
+        width: 430px;
+        line-height: 30px;
+        text-indent: 5px;
+        border-bottom: 2px solid crimson;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin-left: 20px;
+        margin-top: 30px;
+        
+     }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div  id="tname">
+            <button id="sk">Shivakumar Kalmath</button>
+            <!-- <h3>Shivakumar Kalmath</h3> -->
+        </div>
+        <div class="home">
+            <ul>
+                <li>Home</li>
+                <li>About Me</li>
+                <li>Skills</li> 
+                <li>Contact</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main">
+        <section class="tesec">
+            <h2 class="hii">HEY THERE, I'M</h2>
+            <h1 class="name">SHIVAKUMAR KALMATH</h1>
+        </section>
+        <section class="tpic">
+            <img id="real" src="/dboss.png" alt="">
+            <img id="bgim" src="/bg-image.png" alt="">
+        </section>
+    </div>
+    <div class="custom-shape-divider-bottom-1717428453">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <div class="about">
+        <div class="me">
+            <h1 style="font-size: 50px;">About Me</h1>
+        </div>
+        <div id="info">
+            <img style="height: 300px; " src="https://www.comingsoon.net/wp-content/uploads/sites/3/2024/02/devils.jpg" alt="">
+           <p style="width: 500px; margin-left: 20px; font-size: 25px; color: aliceblue;">Darshan Thoogudeepa known mononymously as Darshan is an Indian actor, producer, and distributor who works predominantly in Kannada films. One of the leading contemporary actors of Kannada cinema, Darshan established the production house Thoogudeepa Productions in 2006.</p>
+        </div>
+        <div id="hire">
+            <button id="cv">Download CV</button>
+            <button id="hoe">Hire Me</button>
+        </div>
+    </div>
+    <div style="height: 100px; width: 100%; ">
+        <h2 style="font-size: 50px; margin-left: 40%; margin-top: 30px; font-family: arial;">Get In Touch</h2>
+    </div>
+    <section class="contact">
+         <section class="call">
+            <div style="height: 150px; width: 300px; border: 2px solid #04AA6D; margin-left: 350px; margin-top: 30px; font-size: 20px; color: #04AA6D;" >
+            <div style="font-size: 40px; margin-left: 45%; margin-top: 20px;">✉</div>
+            <p style="margin-left: 17%;">shivakumar@gmail.com</p>
+            </div>
+            <div style="height: 150px; width: 300px; border: 2px solid #04AA6D; margin-left: 350px; margin-top: 30px; color: #04AA6D;">
+                <div style="font-size: 40px; margin-left: 45%; margin-top: 20px;">☎︎</div>
+                <p style="margin-left: 34%; font-size: 20px;">95916 01752</p>
+            </div>
+         </section>
+         <section class="inbox">
+            <div>
+                <input id="naam" type="text" placeholder="Your Name">
+                <input id="naam" type="email" placeholder="Your Email">
+            </div>
+            <div style="display: ;">
+                <input id="sub" type="text" placeholder="Subject">
+            </div>
+            <div>
+                <input id="msg" type="text" placeholder="Your Message"> 
+            </div>
+            <div>
+                <button style="line-height: 25px; width: 430px; margin-left: 20px; margin-top: 30px; color: white; background-color: crimson; border: none;">Send Message</button>
+            </div>
+         </section>
+        </section>
+</body>
+</html>
